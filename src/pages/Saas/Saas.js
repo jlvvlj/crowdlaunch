@@ -22,7 +22,7 @@ import Feature from '../../components/Shared/Feature';
 import Start from './Start';
 import Client from './Client';
 
-class Index extends Component {
+class Saas extends Component {
 
     constructor(props) {
         super(props);
@@ -54,18 +54,7 @@ class Index extends Component {
         window.removeEventListener("scroll", this.scrollNavigation, true);
      }
      
-      scrollNavigation = () => {
-          var doc = document.documentElement;
-          var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-          if(top > 80)
-          {
-               document.getElementById('topnav').classList.add('nav-sticky');
-          }
-          else
-          {
-            document.getElementById('topnav').classList.remove('nav-sticky');
-          }
-      }
+
 
 
     render() {
@@ -85,14 +74,13 @@ class Index extends Component {
                 <section className="section bg-light mt-0 mt-md-5">
                     <Container>
                         {/* section title */}
-                        <SectionTitle title="Our Trusted Clients" desc="that can provide everything you need to generate awareness, drive traffic, connect."/>
 
                         {/* partners */}
                         <Row className="justify-content-center">
                             {
                                 this.state.partners.map((partner, key) =>
                                     <Col lg={2} md={2} xs={6} key={key} className="text-center mt-4 pt-2">
-                                        <img src={partner.image} className="avatar avatar-ex-sm" alt="Landrick" />
+                                        <img src={partner.image} className="avatar avatar-ex-sm" alt="CrowdLaunch" />
                                     </Col>
                                 )
                             }
@@ -114,16 +102,10 @@ class Index extends Component {
                     <Client />
                 </section>
                 
-                <div className="position-relative">
-                        <div className="shape overflow-hidden text-footer">
-                            <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
-                            </svg>
-                        </div>
-                </div>
+             
             </React.Fragment>
         );
     }
 }
 
-export default Index;
+export default Saas;

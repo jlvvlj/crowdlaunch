@@ -12,7 +12,7 @@ import FeatherIcon from 'feather-icons-react';
 
 // Layout Components
 const Topbar = React.lazy(() => import('./Topbar'));
-const NavbarPage = React.lazy(() => import('../../pages/Saas Onepage/NavbarPage'));
+const NavbarPage = React.lazy(() => import('../../pages/Onepage/NavbarPage'));
 const Footer = React.lazy(() => import('./Footer'));
 const FooterWithoutMenuLightSocialOnly = React.lazy(() => import('./FooterWithoutMenuLightSocialOnly'));
 

@@ -26,7 +26,7 @@ const PageRecoveryPassword = React.lazy(() => import('./pages/Pages/AuthPages/Pa
 const PageRePasswordThree = React.lazy(() => import('./pages/Pages/AuthPages/PageRePasswordThree'));
 
 // Import all components
-const SaasOnepage = React.lazy(() => import('./pages/Saas Onepage/index'));
+const SaasOnepage = React.lazy(() => import('./pages/Onepage/Onepage'));
 const Customer = React.lazy(() => import('./pages/Customer/index'));
 const Job = React.lazy(() => import('./pages/Job/index'));
 const Software = React.lazy(() => import('./pages/Software/index'));
@@ -36,7 +36,7 @@ const IndexCarRiding = React.lazy(() => import('./pages/Car Ride/index'));
 const IndexclassicSaas = React.lazy(() => import('./pages/Classic Saas/index'));
 const ClassicApp = React.lazy(() => import('./pages/Classic Application/index'));
 const Agency = React.lazy(() => import('./pages/Agency/index'));
-const Saas = React.lazy(() => import('./pages/Saas/index'));
+const Saas = React.lazy(() => import('./pages/Saas/Saas'));
 const Apps = React.lazy(() => import('./pages/Apps/index'));
 const Studio = React.lazy(() => import('./pages/Studio/index'));
 const Business = React.lazy(() => import('./pages/Business/index'));

@@ -258,7 +258,7 @@ class Topbar extends Component {
                             </Link>
                         </div> 
                         <div className="buy-button">
-                        <a href="https://1.envato.market/landrickreactjs" target="_blank" rel="noopener noreferrer" id="buyButton" className="btn btn-primary">Buy Now</a>
+                        <a href="https://1.envato.market/landrickreactjs" target="_blank" rel="noopener noreferrer" id="buyButton" className="btn btn-primary">Start Now</a>
                         </div>
                         <div className="menu-extras">
                             <div className="menu-item">

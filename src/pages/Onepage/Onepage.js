@@ -19,7 +19,7 @@ import Team from "./Team";
 import ContactUs from "./ContactUs";
 import GoogleMap from "./GoogleMap";
 
-class SaasOnepage extends Component {
+class Onepage extends Component {
     constructor(props, context) { 
         super(props, context); 
         //Initilize Aos Animation
@@ -154,4 +154,4 @@ class SaasOnepage extends Component {
     }
 }
 
-export default SaasOnepage;
+export default Onepage;
