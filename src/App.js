@@ -1,4 +1,4 @@
-import React, { Component, Suspense } from 'react';
+import React, { Component } from 'react';
 import Footer from './components/Layout/Footer';
 import Saas from './pages/Saas/Saas'
 import Topbar from './components/Layout/Topbar'

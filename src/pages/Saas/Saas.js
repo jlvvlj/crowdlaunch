@@ -17,7 +17,6 @@ import img6 from "../../assets/images/client/spotify.svg";
 
 // Import Generic Components
 import Section from "./Section";
-import SectionTitle from "../../components/Shared/SectionTitle";
 import Feature from '../../components/Shared/Feature';
 import Start from './Start';
 import Client from './Client';
